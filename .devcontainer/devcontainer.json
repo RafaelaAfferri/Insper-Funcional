@@ -1,5 +1,5 @@
 {
-  "name": "OCaml and Haskell DevContainer",
+  "name": "Haskell DevContainer",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -10,9 +10,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "extensions": [
-        "ocamllabs.ocaml-platform",
         "justusadam.language-haskell",
-        "gitlens.gitlens"
+        "gitlens.gitlens",
+        "esbenp.prettier-vscode"
       ]
     }
   },
