@@ -8,5 +8,6 @@
 				"ms-dotnettools.csharp"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "dotnet tool install --global fantomas"
 }

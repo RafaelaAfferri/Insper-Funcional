@@ -10,7 +10,13 @@
 
 (* Atenção: não esquecer dos parênteses para as expressions *)
 let rec soma_digitos n =
-    if n < 10 then n (* Caso base *)
-    else (n mod 10) + soma_digitos (n / 10) ;;
+    if n < 10 then
+        n (* Caso base *)
+    else
+        (n % 10) + soma_digitos (n / 10)
 
-Printf.printf "%d\n" (soma_digitos 1234) ;;
+printfn "%d" (soma_digitos 1234)
+printfn "%d" (soma_digitos 0)
+printfn "%d" (soma_digitos 9)
+printfn "%d" (soma_digitos 10)
+printfn "%d" (soma_digitos -1)

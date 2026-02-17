@@ -1,6 +1,7 @@
 {
-    "FSharp.inlayHints.typeAnnotations": false,
-    "FSharp.lineLens.enabled": "never",
     "FSharp.codeLenses.references.enabled": false,
-    "FSharp.codeLenses.signature.enabled": false
+    "FSharp.codeLenses.signature.enabled": false,
+    "FSharp.inlayHints.parameterNames": false,
+    "FSharp.inlayHints.typeAnnotations": false,
+    "FSharp.lineLens.enabled": "never"
 }
