@@ -1,8 +1,8 @@
 (* Snippets da Aula 02*)
 
 (* Initial *)
-// let x = 7
-// printfn $"{x}"
+let x = 7
+printfn $"{x}"
 
 (* Let *)
 // let x = 2
@@ -14,8 +14,8 @@
 // let x = 2. + 2.5
 
 (* let expression *)
-// let x = 1 in x
-// (let x = 2 in 3 * x) + 1
+let x = 1 in x
+(let x = 2 in 3 * x) + 1
 
 (* concat *)
 // let x = "A"
@@ -27,9 +27,9 @@
 // let x = 5 in (let x = 6 in x) + x
 
 (* Redefinition of bound variable *)
-// let x = 1 ;;
-// let x = 2 ;; (* Whaat? *)
-// x
+let x = 1 ;;
+let x = 2 ;; (* Whaat? *)
+x
 
 //
 
